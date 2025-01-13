@@ -1,5 +1,9 @@
 body{
+    margin: 0;
     font-family: "Poppins", serif;
+}
+header{
+    margin: 32px;
 }
 h1{
     display: inline-block;
@@ -19,4 +23,25 @@ h1{
 }
 a.active{
     border-bottom: 1px solid black;
+}
+.gallery{
+    padding: 15px;
+}
+.card{
+    display: inline-block;
+    width: 49%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.card img:hover{
+    opacity: 0.9;
+}
+.card h2{
+    margin: 8px 0 16px 0;
+    font-weight: 300;
 }
