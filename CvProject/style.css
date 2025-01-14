@@ -50,3 +50,18 @@ body{
 .skills li{
     padding: 15px;
 }
+.blogSection{
+    padding: 64px 19%;
+}
+.mainTitle{
+    font-size: 60px;
+}
+.blogPost{
+    margin-top: 10px;
+}
+.blogTitle{
+    font-weight: 500;
+}
+.blogText{
+    font-size: 20px;
+}
