@@ -102,3 +102,15 @@ body {
     color: gray;
     font-size: 12px;
 }
+footer{
+    background-color: black;
+    padding: 64px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+.footerContent{
+    text-align: center;
+}
