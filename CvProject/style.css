@@ -27,3 +27,26 @@ body{
 .contact:hover{
     opacity: 0.8;
 }
+.personalDiv{
+    padding: 0 19%;
+}
+.title{
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 30px 0;
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMe p{
+    width: 50%;
+}
+.skills{
+    display: flex;
+    width: 50%;
+    list-style: none;
+}
+.skills li{
+    padding: 15px;
+}
