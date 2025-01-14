@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.navSection{
+    background-color: darkmagenta;
+    min-height: 90vh;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 16px;
+}
+.contact{
+    background-color: white;
+    padding: 16px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: darkmagenta;
+}
+.contact:hover{
+    opacity: 0.8;
+}
