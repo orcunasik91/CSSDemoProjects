@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="headerDiv" class="header">
+        <div class="mobileIcon" onclick="toogle()">
+            <img class="icon" src="images/icon.jpg" alt="">
+        </div>
+        <div>
+            <img class="headerImg" src="images/1.jpg" alt="">
+        </div>
+        <div id="toogleMenu" class="mobileLinkDisplay">
+            <div class="mobileLink">
+                <a class="headerLink" href="#home">Home</a>
+                <a class="headerLink" href="#about">About</a>
+                <a class="headerLink" href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="bannerContent">
+            <h3>Efsane Banner</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium tenetur ratione.
+                Reprehenderit voluptates debitis obcaecati, quo quae asperiores facere eius, quaerat autem nulla fugiat
+                inventore rem illum accusantium deserunt.</p>
+        </div>
+    </div>
+    <div class="parentImgDiv">
+        <div class="imgDiv">
+            <img src="images/1.jpg" alt="">
+            <h3>Efsane Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat nisi, perspiciatis eum aut modi
+                quae
+                repellendus quidem soluta magnam cupiditate, eos nulla voluptas rem at. Odio nihil cum sint?</p>
+        </div>
+        <div class="imgDiv">
+            <img src="images/2.jpg" alt="">
+            <h3>Efsane Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat nisi, perspiciatis eum aut modi
+                quae
+                repellendus quidem soluta magnam cupiditate, eos nulla voluptas rem at. Odio nihil cum sint?</p>
+        </div>
+        <div class="imgDiv">
+            <img src="images/3.jpg" alt="">
+            <h3>Efsane Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat nisi, perspiciatis eum aut modi
+                quae
+                repellendus quidem soluta magnam cupiditate, eos nulla voluptas rem at. Odio nihil cum sint?</p>
+        </div>
+        <div class="imgDiv">
+            <img src="images/4.jpg" alt="">
+            <h3>Efsane Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat nisi, perspiciatis eum aut modi
+                quae
+                repellendus quidem soluta magnam cupiditate, eos nulla voluptas rem at. Odio nihil cum sint?</p>
+        </div>
+    </div>
+    <form class="formGeneral">
+        <label>Ad</label>
+        <input type="text" class="formElement" name="firstName" placeholder="Adınız">
+        <label>Soyad</label>
+        <input type="text" class="formElement" name="lastName" placeholder="Soyadınız">
+        <label for="country">Ülke</label>
+        <select name="country" class="formElement">
+            <option value="tr">Türkiye</option>
+            <option value="fr">Français</option>
+            <option value="en">England</option>
+        </select>
+        <input type="submit" class="formBtn" value="Kaydet">
+    </form>
+    <div class="footer">
+        <h3>Frontend && Tüm Haklarını Sakladım!</h3>
+    </div>
+    <script>
+        function toogle() {
+            let x = document.getElementById("toogleMenu");
+            let y = document.getElementById("headerDiv");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.height = "auto";
+            } else {
+                x.style.display = "none";
+                y.style.height = "80px";
+            }
+        }
+    </script>
+</body>
+
+</html>
