@@ -12,11 +12,30 @@ a{
     text-decoration: none;
 }
 
+.btn{
+    background: cornflowerblue;
+    padding: 6px 12px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background: white;
+    color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .navbar{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 16px 32px;
     position: fixed;
     width: 100%;
+    background: white;
 }
 
 .navDiv{
@@ -53,4 +72,41 @@ a{
     margin-right: 12px;
     font-size: 20px;
     color: cornflowerblue;
+}
+
+.bannerSection{
+    background-image: url('images/main.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerDiv{
+    color: tomato;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bannerDiv p{
+    letter-spacing: 4px;
+}
+
+.bannerBtnDiv{
+    margin-top: 30px;
+}
+
+.bannerBtn{
+    background: white;
+    padding: 15px 20px;
+    color: tomato;
+    font-size: 20px;
+}
+
+.bannerBtn:hover{
+    background: transparent;
+    color: white;
+    border-color: white;
 }
