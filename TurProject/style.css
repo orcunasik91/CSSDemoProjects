@@ -36,6 +36,7 @@ a{
     position: fixed;
     width: 100%;
     background: white;
+    z-index: 5;
 }
 
 .navDiv{
@@ -261,3 +262,39 @@ a{
 .tourBtn{
     text-align: center;
 }
+
+.galleries{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryImgContainer{
+    width: 25%;
+    height: 250px;
+    position: relative;
+}
+
+.galleryImgContainer:hover .galleryIcon{
+    opacity: 1;
+}
+
+.galleryImgContainer:hover .galleryImg{
+    opacity: 0.5;
+}
+
+.galleryImg{
+    width: 100%;
+    height: 100%;
+}
+
+.galleryIcon{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    opacity: 0;
+    transition: all 0.3s linear ;
+}
+
