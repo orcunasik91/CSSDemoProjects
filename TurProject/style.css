@@ -159,3 +159,38 @@ a{
 .btnDiv{
     margin-top: 20px;
 }
+
+.servicesContainer{
+    background: mediumorchid;
+    padding: 50px 20px;
+}
+
+.servicesTitle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: flex;
+}
+
+.service{
+    display: flex;
+}
+
+.serviceIcon{
+    font-size: 32px;
+    padding: 8px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    align-self: start;
+}
+
+.serviceInfo{
+    padding-left: 16px;
+}
+
+.serviceTitle{
+    margin-bottom: 10px;
+}
