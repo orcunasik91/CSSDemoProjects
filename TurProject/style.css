@@ -298,3 +298,44 @@ a{
     transition: all 0.3s linear ;
 }
 
+.contactSection{
+    padding: 50px 0;
+    background: cornflowerblue;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactTitle{
+    color: white;
+}
+
+.form-control, .btnSubmit{
+    padding: 5px 10px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: transparent;
+    cursor: pointer;
+    color: cornflowerblue;
+    outline: none;
+    margin-left: 8px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+}
+
+.form-control{
+    min-width: 400px;
+}
+
+.form-control::placeholder{
+    color: cornflowerblue ;
+}
+
+.btnSubmit:hover{
+    color:darkorchid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
