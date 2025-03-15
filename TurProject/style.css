@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.btn{
+.btn {
     background: cornflowerblue;
     padding: 6px 12px;
     font-size: 14px;
@@ -24,13 +24,13 @@ a{
     transition: all 0.3s linear;
 }
 
-.btn:hover{
+.btn:hover {
     background: white;
     color: cornflowerblue;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.navbar{
+.navbar {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 16px 32px;
     position: fixed;
@@ -39,21 +39,21 @@ a{
     z-index: 5;
 }
 
-.navDiv{
+.navDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navHeader img{
+.navHeader img {
     width: 50px;
 }
 
-.navLinks{
+.navLinks {
     display: flex;
 }
 
-.navLink{
+.navLink {
     padding: 16px 32px;
     display: block;
     letter-spacing: 3px;
@@ -61,21 +61,21 @@ a{
     transition: all 0.3s linear;
 }
 
-.navLink:hover{
-    color:cornflowerblue;
+.navLink:hover {
+    color: cornflowerblue;
 }
 
-.navIcons{
+.navIcons {
     display: flex;
 }
 
-.navIcon{
+.navIcon {
     margin-right: 12px;
     font-size: 20px;
     color: cornflowerblue;
 }
 
-.bannerSection{
+.bannerSection {
     background-image: url('images/main.jpg');
     height: 100vh;
     background-position: center;
@@ -85,59 +85,59 @@ a{
     align-items: center;
 }
 
-.bannerDiv{
+.bannerDiv {
     color: tomato;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.bannerDiv p{
+.bannerDiv p {
     letter-spacing: 4px;
 }
 
-.bannerBtnDiv{
+.bannerBtnDiv {
     margin-top: 30px;
 }
 
-.bannerBtn{
+.bannerBtn {
     background: white;
     padding: 15px 20px;
     color: tomato;
     font-size: 20px;
 }
 
-.bannerBtn:hover{
+.bannerBtn:hover {
     background: transparent;
     color: white;
     border-color: white;
 }
 
-.aboutSection{
+.aboutSection {
     padding: 50px 0;
 }
 
-.aboutTitle{
+.aboutTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.aboutTitle h2{
+.aboutTitle h2 {
     text-transform: uppercase;
 }
 
-.aboutContainer{
+.aboutContainer {
     display: flex;
     justify-content: space-around;
     margin: 0 100px;
 }
 
-.aboutImg{
+.aboutImg {
     width: 50%;
     position: relative;
 
 }
 
-.aboutImg::before{
+.aboutImg::before {
     content: '';
     position: absolute;
     border: 8px solid cornflowerblue;
@@ -149,37 +149,37 @@ a{
     z-index: -1;
 }
 
-.aboutPhoto{
+.aboutPhoto {
     width: 100%;
 }
 
-.aboutInfo{
+.aboutInfo {
     width: 40%;
 }
 
-.btnDiv{
+.btnDiv {
     margin-top: 20px;
 }
 
-.servicesContainer{
+.servicesContainer {
     background: mediumorchid;
     padding: 50px 20px;
 }
 
-.servicesTitle{
+.servicesTitle {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.services{
+.services {
     display: flex;
 }
 
-.service{
+.service {
     display: flex;
 }
 
-.serviceIcon{
+.serviceIcon {
     font-size: 32px;
     padding: 8px;
     background: cornflowerblue;
@@ -188,48 +188,48 @@ a{
     align-self: start;
 }
 
-.serviceInfo{
+.serviceInfo {
     padding-left: 16px;
 }
 
-.serviceTitle{
+.serviceTitle {
     margin-bottom: 10px;
 }
 
-.tourSection{
+.tourSection {
     padding: 50px 0;
 }
 
-.tourMainTitle{
+.tourMainTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.tourCards{
+.tourCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 50px;
 }
 
-.tourCard{
+.tourCard {
     width: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 50px;
     border-radius: 30px;
 }
 
-.tourImgContainer{
+.tourImgContainer {
     position: relative;
 }
 
-.tourImg{
+.tourImg {
     width: 100%;
     border-radius: 30px 30px 0 0;
     height: 300px;
 }
 
-.tourDate{
+.tourDate {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -240,54 +240,55 @@ a{
     border-radius: 10px 0 0 0;
 }
 
-.tourInfo{
+.tourInfo {
     padding: 20px 25px;
 }
 
-.tourTitle p, .tourTitle h4{
+.tourTitle p,
+.tourTitle h4 {
     margin-bottom: 12px;
     line-height: 1.25;
 }
 
-.tourTitle p{
+.tourTitle p {
     color: gray;
 }
 
-.tourFooter{
+.tourFooter {
     display: flex;
     justify-content: space-between;
     color: cornflowerblue;
 }
 
-.tourBtn{
+.tourBtn {
     text-align: center;
 }
 
-.galleries{
+.galleries {
     display: flex;
     flex-wrap: wrap;
 }
 
-.galleryImgContainer{
+.galleryImgContainer {
     width: 25%;
     height: 250px;
     position: relative;
 }
 
-.galleryImgContainer:hover .galleryIcon{
+.galleryImgContainer:hover .galleryIcon {
     opacity: 1;
 }
 
-.galleryImgContainer:hover .galleryImg{
+.galleryImgContainer:hover .galleryImg {
     opacity: 0.5;
 }
 
-.galleryImg{
+.galleryImg {
     width: 100%;
     height: 100%;
 }
 
-.galleryIcon{
+.galleryIcon {
     position: absolute;
     color: white;
     top: 50%;
@@ -295,24 +296,25 @@ a{
     transform: translate(-50%, -50%);
     font-size: 32px;
     opacity: 0;
-    transition: all 0.3s linear ;
+    transition: all 0.3s linear;
 }
 
-.contactSection{
+.contactSection {
     padding: 50px 0;
     background: cornflowerblue;
 }
 
-.contactContainer{
+.contactContainer {
     display: flex;
     justify-content: space-around;
 }
 
-.contactTitle{
+.contactTitle {
     color: white;
 }
 
-.form-control, .btnSubmit{
+.form-control,
+.btnSubmit {
     padding: 5px 10px;
     line-height: 1.5;
     letter-spacing: 3px;
@@ -326,49 +328,174 @@ a{
     transition: all 0.3s linear;
 }
 
-.form-control{
+.form-control {
     min-width: 400px;
 }
 
-.form-control::placeholder{
-    color: cornflowerblue ;
+.form-control::placeholder {
+    color: cornflowerblue;
 }
 
-.btnSubmit:hover{
-    color:darkorchid;
+.btnSubmit:hover {
+    color: darkorchid;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.footer{
+.footer {
     background: black;
     text-align: center;
     color: white;
     padding: 50px 0;
 }
 
-.footerLinks, .footerIcons{
+.footerLinks,
+.footerIcons {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
 }
 
-.footerLink{
+.footerLink {
     color: white;
     margin-right: 16px;
     letter-spacing: 3px;
     transition: all 0.3s linear;
 }
 
-.footerLink:hover{
-    color:cornflowerblue;
+.footerLink:hover {
+    color: cornflowerblue;
 }
 
-.footerIcon{
+.footerIcon {
     color: cornflowerblue;
     margin-right: 16px;
     font-size: 30px;
 }
 
-.footerText{
+.footerText {
     letter-spacing: 3px;
+}
+
+.navToggle {
+    display: none;
+}
+
+.showLinks {
+    display: block !important;
+    height: 250px;
+}
+
+@media screen and (max-width:768px) {
+
+    .navDiv {
+        display: block;
+    }
+
+    .navHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navLinks,
+    .navIcons {
+        display: none;
+    }
+
+    .navLink:hover {
+        background: darkmagenta;
+        color: white;
+    }
+
+    .navToggle {
+        display: block;
+        font-size: 30px;
+        color: cornflowerblue;
+        background: white;
+        border: none;
+    }
+
+    .navToggle:hover {
+        transform: scale(1.2);
+    }
+
+    .bannerBtn {
+        padding: 15px 10px;
+        font-size: 18px;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .aboutImg,
+    .aboutInfo {
+        width: 100%;
+    }
+
+    .btnDiv {
+        text-align: center;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service{
+        margin-bottom: 15px;
+    }
+
+    .serviceIcon {
+        display: flex;
+        min-width: 60px;
+        justify-content: center;
+    }
+
+    .tourCards{
+        margin: 0 20px;
+    }
+
+    .tourCard{
+        width: 100%;
+    }
+
+    .galleryImgContainer{
+        width: 100%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-control {
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    .btnSubmit {
+        width: 30%;
+        margin-top: 10px;
+
+    }
+
+    .footer{
+        padding: 100px 0;
+    }
+
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .footerLinks li{
+        padding: 10px 0;
+    }
 }
