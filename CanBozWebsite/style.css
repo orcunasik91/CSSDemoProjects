@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background: dimgray;
+    height: 75px;
+    padding-left: 20px;
+}
+
+.navLogo{
+    height: 100%;
+}
