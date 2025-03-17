@@ -30,7 +30,7 @@
     margin-bottom: 20px;
 }
 
-.bannerInfo .underline{
+.underline{
     width: 80px;
     height: 4px;
     background: darkmagenta;
@@ -74,12 +74,42 @@
     background: darkorange;
 }
 
-.bannerImg{
+.bannerImg, 
+.aboutImg{
     width: 30%;
     border: 4px solid darkmagenta;
     border-radius: 30px;
 }
 
-.bannerPhoto {
+.bannerPhoto, 
+.aboutPhoto {
     width: 100%;
+}
+
+.about{
+    background: azure;
+    padding: 100px 40px;
+}
+
+.aboutDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutInfo{
+    width: 40%;
+}
+
+.aboutInfo p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aboutTitle{
+    margin-bottom: 30px;
+}
+
+.aboutName{
+    font-size: 50px;
 }
