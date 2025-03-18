@@ -160,3 +160,27 @@
 .courseInfo .price{
     color: brown;
 }
+
+.footer{
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+.socialIcons{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.socialIcon{
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+}
