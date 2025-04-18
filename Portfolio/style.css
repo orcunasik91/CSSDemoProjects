@@ -179,3 +179,90 @@ a {
 .service:hover .underline{
     background-color: white;
 }
+
+.projectsSection{
+    background: darkgray;
+}
+
+.projectsTitle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.projectsText{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    grid-template-areas: 
+    'a b b'
+    'a c d'
+    ;
+}
+
+.project1{
+    grid-area: a;
+}
+.project2{
+    grid-area: b;
+}
+.project3{
+    grid-area: c;
+}
+.project4{
+    grid-area: d;
+}
+
+.project, .projectImg{
+    height: 100%;
+    border-radius: 8px;
+}
+
+.project{
+    position: relative;
+    background: darkmagenta;
+}
+
+.projectImg{
+    width: 100%;
+    transition: all 0.4s linear;
+}
+
+.projectInfo{
+    position: absolute;
+    color: white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.project:hover .projectInfo{
+    opacity: 1;
+}
+
+.project:hover .projectImg{
+    opacity: 0.1;
+}
+
+.project::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.project:hover::before{
+    opacity: 1;
+    transform: scale(0.8);
+}
