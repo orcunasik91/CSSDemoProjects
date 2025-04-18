@@ -114,7 +114,7 @@ a {
     border-radius: 20px;
 }
 
-.aboutDiv{
+.aboutDiv {
     background: azure;
 }
 
@@ -124,11 +124,58 @@ a {
     place-items: center;
 }
 
-.aboutTitle{
+.aboutTitle {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.aboutBtn{
+.aboutBtn {
     text-align: center;
+}
+
+.servicesSection {
+    background: antiquewhite;
+}
+
+.servicesTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.service{
+    background: white;
+    padding: 50px 25px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.service:hover{
+    background-color: darkmagenta;
+    color:white;
+}
+
+.serviceIcon{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.service h4{
+    font-size: 20px;
+}
+
+.service .underline{
+    width: 50px;
+    height: 5px;
+    transition: all 0.3s linear;
+}
+
+.service:hover .underline{
+    background-color: white;
 }
