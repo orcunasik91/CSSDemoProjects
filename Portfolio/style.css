@@ -266,3 +266,79 @@ a {
     opacity: 1;
     transform: scale(0.8);
 }
+
+.skillsSection{
+    background-color: aliceblue;
+}
+
+.skillsTitle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skillsCenter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.skillsCenter h3{
+    font-size: 22px;
+    text-align: center;
+    color:brown;
+    margin: 25px 0;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+.skill p{
+    margin-bottom: 8px;
+    color: brown;
+}
+
+.skillContainer{
+    position: relative;
+    width: 100%;
+    height: 16px;
+    background: white;
+    border-radius: 10px;
+}
+
+.skillValue{
+    position: absolute;
+    background: darkmagenta;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.value85{
+    width: 85%;
+}
+
+.value90{
+    width: 90%;
+}
+
+.value95{
+    width: 95%;
+}
+
+.skillText{
+    position: absolute;
+    top:-26px;
+    transform: translateX(-50%);
+}
+
+.left85{
+    left:85%;
+}
+
+.left90{
+    left:90%;
+}
+
+.left95{
+    left:95%;
+}
