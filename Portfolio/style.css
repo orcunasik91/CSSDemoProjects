@@ -50,17 +50,17 @@ a {
     color: darkmagenta;
 }
 
-.sectionCenter{
+.sectionCenter {
     max-width: 1150px;
     margin: 0 auto;
     width: 100%;
 }
 
-.sectionPadding{
+.sectionPadding {
     padding: 100px 0;
 }
 
-.banner{
+.banner {
     background: ghostwhite;
 }
 
@@ -70,22 +70,26 @@ a {
     place-items: center;
 }
 
-.title{
+.title {
     font-size: 50px;
 }
 
-.bannerInfo .underline{
+.underline {
     width: 90px;
     height: 4px;
     background: darkmagenta;
+    margin: 5px auto 20px auto;
+}
+
+.bannerInfo .underline {
     margin: 5px auto 20px 0;
 }
 
-.bannerInfo h2{
+.bannerInfo h2 {
     color: gray;
 }
 
-.btn{
+.btn {
     color: brown;
     background: white;
     padding: 10px 12px;
@@ -100,7 +104,7 @@ a {
     transition: all 0.3s linear;
 }
 
-.btn:hover{
+.btn:hover {
     background: lightyellow;
 }
 
@@ -108,4 +112,23 @@ a {
     width: 400px;
     border: 4px solid darkmagenta;
     border-radius: 20px;
+}
+
+.aboutDiv{
+    background: azure;
+}
+
+.aboutCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.aboutTitle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutBtn{
+    text-align: center;
 }
