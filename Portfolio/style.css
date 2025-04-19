@@ -342,3 +342,72 @@ a {
 .left95{
     left:95%;
 }
+
+.timelineSection{
+    background: gainsboro;
+}
+
+.timelineTitle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.timelineCenter{
+    width: 70%;
+}
+
+.timelineItem{
+    border-top: 2px dashed darkmagenta;
+    padding: 60px 30px;
+    position: relative;
+}
+
+.timelineItem:first-child{
+    border-top: 0;
+    border-top-right-radius: 0 !important;
+}
+
+.timelineItem:nth-child(odd){
+    border-right: 2px dashed darkmagenta;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+}
+
+.timelineItem:nth-child(even){
+    border-left: 2px dashed darkmagenta;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+}
+
+.timelineItem:last-child{
+    border-bottom-left-radius: 0;
+}
+
+.number{
+    position: absolute;
+    top:50%;
+    background: yellow;
+    color:brown;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.timelineItem:nth-child(odd) .number{
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.timelineItem:nth-child(even) .number{
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.timelineItem h4{
+    font-size: 20px;
+}
