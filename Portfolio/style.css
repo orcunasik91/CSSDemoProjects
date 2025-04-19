@@ -148,7 +148,7 @@ a {
     column-gap: 30px;
 }
 
-.service{
+.service {
     background: white;
     padding: 50px 25px;
     text-align: center;
@@ -156,102 +156,106 @@ a {
     transition: all 0.3s linear;
 }
 
-.service:hover{
+.service:hover {
     background-color: darkmagenta;
-    color:white;
+    color: white;
 }
 
-.serviceIcon{
+.serviceIcon {
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-.service h4{
+.service h4 {
     font-size: 20px;
 }
 
-.service .underline{
+.service .underline {
     width: 50px;
     height: 5px;
     transition: all 0.3s linear;
 }
 
-.service:hover .underline{
+.service:hover .underline {
     background-color: white;
 }
 
-.projectsSection{
+.projectsSection {
     background: darkgray;
 }
 
-.projectsTitle{
+.projectsTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.projectsText{
+.projectsText {
     max-width: 500px;
     margin: 0 auto;
 }
 
-.projects{
+.projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
     gap: 20px;
-    grid-template-areas: 
-    'a b b'
-    'a c d'
+    grid-template-areas:
+        'a b b'
+        'a c d'
     ;
 }
 
-.project1{
+.project1 {
     grid-area: a;
 }
-.project2{
+
+.project2 {
     grid-area: b;
 }
-.project3{
+
+.project3 {
     grid-area: c;
 }
-.project4{
+
+.project4 {
     grid-area: d;
 }
 
-.project, .projectImg{
+.project,
+.projectImg {
     height: 100%;
     border-radius: 8px;
 }
 
-.project{
+.project {
     position: relative;
     background: darkmagenta;
 }
 
-.projectImg{
+.projectImg {
     width: 100%;
     transition: all 0.4s linear;
 }
 
-.projectInfo{
+.projectInfo {
     position: absolute;
     color: white;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: all 0.4s linear;
 }
 
-.project:hover .projectInfo{
+.project:hover .projectInfo {
     opacity: 1;
 }
 
-.project:hover .projectImg{
+.project:hover .projectImg {
     opacity: 0.1;
 }
 
-.project::before{
+.project::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -262,43 +266,43 @@ a {
     transition: all 0.4s linear;
 }
 
-.project:hover::before{
+.project:hover::before {
     opacity: 1;
     transform: scale(0.8);
 }
 
-.skillsSection{
+.skillsSection {
     background-color: aliceblue;
 }
 
-.skillsTitle{
+.skillsTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.skillsCenter{
+.skillsCenter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
 }
 
-.skillsCenter h3{
+.skillsCenter h3 {
     font-size: 22px;
     text-align: center;
-    color:brown;
+    color: brown;
     margin: 25px 0;
 }
 
-.skill{
+.skill {
     margin-bottom: 20px;
 }
 
-.skill p{
+.skill p {
     margin-bottom: 8px;
     color: brown;
 }
 
-.skillContainer{
+.skillContainer {
     position: relative;
     width: 100%;
     height: 16px;
@@ -306,90 +310,90 @@ a {
     border-radius: 10px;
 }
 
-.skillValue{
+.skillValue {
     position: absolute;
     background: darkmagenta;
     height: 100%;
     border-radius: 10px;
 }
 
-.value85{
+.value85 {
     width: 85%;
 }
 
-.value90{
+.value90 {
     width: 90%;
 }
 
-.value95{
+.value95 {
     width: 95%;
 }
 
-.skillText{
+.skillText {
     position: absolute;
-    top:-26px;
+    top: -26px;
     transform: translateX(-50%);
 }
 
-.left85{
-    left:85%;
+.left85 {
+    left: 85%;
 }
 
-.left90{
-    left:90%;
+.left90 {
+    left: 90%;
 }
 
-.left95{
-    left:95%;
+.left95 {
+    left: 95%;
 }
 
-.timelineSection{
+.timelineSection {
     background: gainsboro;
 }
 
-.timelineTitle{
+.timelineTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.timelineCenter{
+.timelineCenter {
     width: 70%;
 }
 
-.timelineItem{
+.timelineItem {
     border-top: 2px dashed darkmagenta;
     padding: 60px 30px;
     position: relative;
 }
 
-.timelineItem:first-child{
+.timelineItem:first-child {
     border-top: 0;
     border-top-right-radius: 0 !important;
 }
 
-.timelineItem:nth-child(odd){
+.timelineItem:nth-child(odd) {
     border-right: 2px dashed darkmagenta;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-left: 30px;
 }
 
-.timelineItem:nth-child(even){
+.timelineItem:nth-child(even) {
     border-left: 2px dashed darkmagenta;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-right: 30px;
 }
 
-.timelineItem:last-child{
+.timelineItem:last-child {
     border-bottom-left-radius: 0;
 }
 
-.number{
+.number {
     position: absolute;
-    top:50%;
+    top: 50%;
     background: yellow;
-    color:brown;
+    color: brown;
     width: 30px;
     height: 30px;
     display: grid;
@@ -398,62 +402,89 @@ a {
     font-weight: bold;
 }
 
-.timelineItem:nth-child(odd) .number{
+.timelineItem:nth-child(odd) .number {
     right: 0;
     transform: translate(50%, -50%);
 }
 
-.timelineItem:nth-child(even) .number{
+.timelineItem:nth-child(even) .number {
     left: 0;
     transform: translate(-50%, -50%);
 }
 
-.timelineItem h4{
+.timelineItem h4 {
     font-size: 20px;
 }
 
-.blogSection{
+.blogSection {
     background: floralwhite;
 }
 
-.cards{
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px 30px;
 }
 
-.blogTitle{
+.blogTitle {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.card{
+.card {
     height: 400px;
     border-radius: 30px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.cardImg{
+.cardImg {
     height: 200px;
     width: 100%;
     border-radius: 30px 30px 0 0;
 }
 
-.cardInfo{
+.cardInfo {
     text-align: center;
     padding: 10px 20px;
 }
 
-.cardInfo h4{
+.cardInfo h4 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.cardFooter{
+.cardFooter {
     text-align: center;
 }
 
-.cardFooter .btn{
+.cardFooter .btn {
     margin-top: 25px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.footer p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.footer .socialIcons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 30px;
+    margin: 50px 0 30px 0;
+    width: 300px;
+    justify-items: center;
+}
+
+.footer .socialIcon{
+    font-size: 24px;
+    color:white;
 }
